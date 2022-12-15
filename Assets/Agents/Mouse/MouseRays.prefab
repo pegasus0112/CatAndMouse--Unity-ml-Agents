@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &746197321998967010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4755725105325832214}
+  m_Layer: 7
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4755725105325832214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746197321998967010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4699072983527275193}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4699072983526844033
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +399,7 @@ GameObject:
   - component: {fileID: 8305045031650959780}
   - component: {fileID: 3078291627335208694}
   - component: {fileID: 194172473}
-  - component: {fileID: 194172472}
+  - component: {fileID: 2806924036410478238}
   m_Layer: 7
   m_Name: MouseRays
   m_TagString: Mouse
@@ -390,6 +421,7 @@ Transform:
   m_Children:
   - {fileID: 4699072983527275175}
   - {fileID: 4699072983527275195}
+  - {fileID: 4755725105325832214}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -596,7 +628,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &194172472
+--- !u!114 &2806924036410478238
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -605,13 +637,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 4699072983526844057}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d69f215168bb4bf428a85dca1cc7fcd6, type: 3}
+  m_Script: {fileID: 11500000, guid: f48906e2bd7c7e44ea38eb1061d8846f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalLookSpeedMultiplier: 4
   movementSpeedMultiplier: 5.2
   rotation: 0
   walkSpeed: 0
+  groundCheck: {fileID: 4755725105325832214}
+  gravity: -20
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 8
+  groundDistance: 0.3
   isDead: 0
 --- !u!1 &4699072983526844059
 GameObject:

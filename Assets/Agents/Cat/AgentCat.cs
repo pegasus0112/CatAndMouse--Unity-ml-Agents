@@ -30,8 +30,8 @@ public class AgentCat : Agent
         AddReward(move * walkingPenalty);
         AddReward(Mathf.Abs(rotate) * rotationPenalty);
 
-        GetComponent<NewMovement>().walkSpeed = move;
-        GetComponent<NewMovement>().rotation = rotate;
+        GetComponent<NewMovementGravity>().walkSpeed = move;
+        GetComponent<NewMovementGravity>().rotation = rotate;
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)

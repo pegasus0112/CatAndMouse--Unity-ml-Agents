@@ -16,6 +16,7 @@ public class AgentMouse : Agent
     public float mouseKilled;
     public float walkingPenalty;
     public float rotationPenalty;
+    public float hitDeathWallPenalty;
 
     private void Start()
     {
@@ -50,6 +51,13 @@ public class AgentMouse : Agent
     {
         AddReward(mouseKilled);
         gameManager.deadMice++;
+        gameObject.SetActive(false);
+    }
+
+    public void hitDeathWall()
+    {
+        gameManager.deadMice++;
+        AddReward(hitDeathWallPenalty);
         gameObject.SetActive(false);
     }
 }

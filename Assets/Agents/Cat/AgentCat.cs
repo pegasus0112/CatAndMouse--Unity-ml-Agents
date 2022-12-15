@@ -5,6 +5,7 @@ using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.VisualScripting;
 using System.Linq;
+using Unity.MLAgents.Integrations.Match3;
 
 public class AgentCat : Agent
 {
@@ -14,7 +15,8 @@ public class AgentCat : Agent
     [Header("Penalties")]
     public float timePenalty;
     public float walkingPenalty;
-    public float rotationPenalty; 
+    public float rotationPenalty;
+    public float hitDeathWallPenalty;
 
     // Update is called once per frame
     void Update()
@@ -37,8 +39,14 @@ public class AgentCat : Agent
     public override void Heuristic(in ActionBuffers actionsOut)
     {
         var continuousActionsOut = actionsOut.ContinuousActions;
-        // continuousActionsOut[0] = Input.GetAxis("Vertical");
-        // continuousActionsOut[1] = Input.GetAxis("Horizontal");
+         continuousActionsOut[0] = Input.GetAxis("Vertical");
+         continuousActionsOut[1] = Input.GetAxis("Horizontal");
+    }
+
+    public void hitDeathWall()
+    {
+        AddReward(hitDeathWallPenalty);
+        gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)

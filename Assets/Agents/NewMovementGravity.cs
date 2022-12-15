@@ -19,6 +19,7 @@ public class NewMovementGravity : MonoBehaviour
     public float gravity = -20;
     Vector3 gravityVelocity;
     public LayerMask groundMask;
+    public LayerMask DeathWallMask;
     public float groundDistance = 0.3f;
     bool isGrounded;
 
@@ -41,7 +42,7 @@ public class NewMovementGravity : MonoBehaviour
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
+        isDead = Physics.CheckSphere(groundCheck.position, groundDistance, DeathWallMask);
         if (isGrounded && gravityVelocity.y < 0)
         {
             gravityVelocity.y = -2f;

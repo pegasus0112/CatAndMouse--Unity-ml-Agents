@@ -224,6 +224,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 120358031787976861, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 120358031787976861, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044253564170843542, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044253564170843542, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044253564170843542, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044253564170843542, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2164633889879262793, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
       propertyPath: m_Name
       value: Maze-01
@@ -272,9 +296,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3096938617977582126, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096938617977582126, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096938617977582126, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096938617977582126, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4325135274554741147, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4325135274554741147, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4325135274554741147, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4325135274554741147, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766623892459729591, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766623892459729591, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6991280891546893943, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
       propertyPath: gameTime
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064662320753521338, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064662320753521338, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba0810b6c22afef42bf01249c14f2a51, type: 3}
@@ -346,6 +418,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 157540464014717158, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 157540464014717158, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2164633889879262793, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
       propertyPath: m_Name
       value: Maze-06
@@ -392,6 +472,70 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2164633889879262798, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489346092510823369, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489346092510823369, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489346092510823369, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489346092510823369, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605299296287905323, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605299296287905323, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980643297409345088, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980643297409345088, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980643297409345088, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980643297409345088, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706023956196873883, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706023956196873883, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706023956196873883, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706023956196873883, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5401608282756192164, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5401608282756192164, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
+      propertyPath: rotationPenalty
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9194305004169818700, guid: 65af286bdd4ce45458dff1562547528d, type: 3}
@@ -455,9 +599,81 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2461773749439190675, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461773749439190675, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461773749439190675, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461773749439190675, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2913880197537084996, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
       propertyPath: gameTime
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4038744040229264213, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4038744040229264213, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4038744040229264213, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4038744040229264213, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906493064704696813, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906493064704696813, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906493064704696813, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906493064704696813, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7168343314105189728, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7168343314105189728, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504389244617744099, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504389244617744099, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953322826993708180, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953322826993708180, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd7647f261c00f84f94c1d78d5fe8f69, type: 3}
@@ -468,6 +684,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 814154745350061977, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 814154745350061977, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 814154745350061977, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 814154745350061977, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 867674181716678710, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
       propertyPath: gameTime
       value: 90
@@ -520,6 +752,62 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2813072094549241362, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2813072094549241362, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2900917935495663987, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2900917935495663987, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2900917935495663987, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2900917935495663987, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553873409374846815, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553873409374846815, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553873409374846815, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553873409374846815, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542058348559712945, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542058348559712945, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113172222099923855, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113172222099923855, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bef93b238aba2de47871fb01be03ba73, type: 3}
 --- !u!1001 &1916084869
@@ -529,6 +817,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1321845225549413922, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321845225549413922, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464700183348107584, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464700183348107584, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464700183348107584, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464700183348107584, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2115279094593432200, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2115279094593432200, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2115279094593432200, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2115279094593432200, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2164633889879262793, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
       propertyPath: m_Name
       value: Maze-02
@@ -580,6 +908,38 @@ PrefabInstance:
     - target: {fileID: 3502573403512679141, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
       propertyPath: gameTime
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591459152017881996, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591459152017881996, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028534984407070541, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028534984407070541, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420205222218848474, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: timeReward
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420205222218848474, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: mouseKilled
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420205222218848474, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: walkingPenalty
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420205222218848474, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}
+      propertyPath: rotationPenalty
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1f5c868fa0f5894f953c188827f5695, type: 3}

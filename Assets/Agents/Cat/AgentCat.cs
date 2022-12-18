@@ -17,10 +17,20 @@ public class AgentCat : Agent
     public float walkingPenalty;
     public float rotationPenalty;
     public float hitDeathWallPenalty;
+    GameManager gameManager;
+
+    private void Start()
+    {
+        gameManager = GetComponentInParent<GameManager>();
+    }
 
     // Update is called once per frame
     void Update()
     {
+        if (gameObject.GetComponent<NewMovementGravity>().isDead)
+        {
+            hitDeathWall();
+        }
         AddReward(timePenalty);
     }
 
@@ -39,13 +49,15 @@ public class AgentCat : Agent
     public override void Heuristic(in ActionBuffers actionsOut)
     {
         var continuousActionsOut = actionsOut.ContinuousActions;
-         continuousActionsOut[0] = Input.GetAxis("Vertical");
-         continuousActionsOut[1] = Input.GetAxis("Horizontal");
+         //continuousActionsOut[0] = Input.GetAxis("Vertical");
+         //continuousActionsOut[1] = Input.GetAxis("Horizontal");
     }
 
     public void hitDeathWall()
     {
+        gameManager.deadCats++;
         AddReward(hitDeathWallPenalty);
+        gameObject.GetComponent<NewMovementGravity>().isDead = false;
         gameObject.SetActive(false);
     }
 

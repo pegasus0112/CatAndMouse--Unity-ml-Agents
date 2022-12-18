@@ -400,6 +400,7 @@ GameObject:
   - component: {fileID: 3078291627335208694}
   - component: {fileID: 194172473}
   - component: {fileID: 2806924036410478238}
+  - component: {fileID: 7404542877010681950}
   m_Layer: 7
   m_Name: MouseRays
   m_TagString: Mouse
@@ -564,11 +565,12 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 50000
+  MaxStep: 0
   timeReward: 1
   mouseKilled: -2
   walkingPenalty: -0.001
   rotationPenalty: -0.001
+  hitDeathWallPenalty: -2
 --- !u!114 &8305045031650959780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,7 +642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f48906e2bd7c7e44ea38eb1061d8846f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalLookSpeedMultiplier: 4
+  horizontalLookSpeedMultiplier: 2
   movementSpeedMultiplier: 5.2
   rotation: 0
   walkSpeed: 0
@@ -649,8 +651,39 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 8
+  DeathWallMask:
+    serializedVersion: 2
+    m_Bits: 512
   groundDistance: 0.3
   isDead: 0
+--- !u!114 &7404542877010681950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4699072983526844057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb6b867a41448888c1cd4f99643ad71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SensorName: GroundCheck
+  m_DetectableTags:
+  - Ground
+  m_RaysPerDirection: 8
+  m_MaxRayDegrees: 180
+  m_SphereCastRadius: 0.07
+  m_RayLength: 22
+  m_RayLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  m_ObservationStacks: 1
+  m_AlternatingRayOrder: 1
+  rayHitColor: {r: 0.052918434, g: 0, b: 1, a: 1}
+  rayMissColor: {r: 1, g: 1, b: 1, a: 1}
+  m_StartVerticalOffset: 0.24
+  m_EndVerticalOffset: -10
 --- !u!1 &4699072983526844059
 GameObject:
   m_ObjectHideFlags: 0

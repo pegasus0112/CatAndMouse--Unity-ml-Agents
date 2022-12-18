@@ -16,13 +16,18 @@ public class GameManager : MonoBehaviour
     public List<GameObject> mice = new();
     public List<GameObject> cats = new();
     public Transform spawnPoints;
+    [Range(0, 1)] public float spawnPointRAndomDistance = 0.5f;
     [Space(10)]
     [Header("Settings")]
     [Range(60, 600)] public float gameTime = 90;
-
+    [Space(10)]
     float playedTime;
+    [Header("Setup")]
     float existingMice;
     public float deadMice = 0;
+
+    float existingCats;
+    public float deadCats = 0;
 
     private SimpleMultiAgentGroup groupMouse;
     private SimpleMultiAgentGroup groupCat;
@@ -31,6 +36,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         existingMice= mice.Count;
+        existingCats= cats.Count;
 
         groupMouse = new SimpleMultiAgentGroup();
         foreach (var mouse in mice)
@@ -69,6 +75,16 @@ public class GameManager : MonoBehaviour
             groupCat.EndGroupEpisode();
             resetScene();
         }
+
+        if (existingCats <= deadCats)
+        {
+            groupCat.AddGroupReward(-2);
+            groupMouse.AddGroupReward(2);
+
+            groupMouse.EndGroupEpisode();
+            groupCat.EndGroupEpisode();
+            resetScene();
+        }
     }
 
     void placeTeams()
@@ -85,21 +101,27 @@ public class GameManager : MonoBehaviour
 
     void placeMice(int miceSpawnNumber) {
         Vector3 miceLocation = new Vector3(spawnPoints.GetChild(miceSpawnNumber).transform.position.x, 0.25f, spawnPoints.GetChild(miceSpawnNumber).transform.position.z);
-        mice[0].transform.SetPositionAndRotation(miceLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
-        miceLocation.x += 1;
-        mice[1].transform.SetPositionAndRotation(miceLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
-        miceLocation.x -= 2;
-        mice[2].transform.SetPositionAndRotation(miceLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
+        foreach(GameObject mouse in mice)
+        {
+            mouse.transform.SetPositionAndRotation(new Vector3(
+                miceLocation.x + Random.Range(-spawnPointRAndomDistance, spawnPointRAndomDistance), 
+                miceLocation.y, 
+                miceLocation.z + Random.Range(-1, 1)), 
+                Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
+        }
     }
 
     void placeCat(int catSpawnNumber)
     {
         Vector3 catLocation = new Vector3(spawnPoints.GetChild(catSpawnNumber).transform.position.x, 0.25f, spawnPoints.GetChild(catSpawnNumber).transform.position.z);
-        cats[0].transform.SetPositionAndRotation(catLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
-        catLocation.x += 1;
-        cats[1].transform.SetPositionAndRotation(catLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
-        catLocation.x -= 2;
-        cats[2].transform.SetPositionAndRotation(catLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
+        foreach (GameObject cat in cats)
+        {
+            cat.transform.SetPositionAndRotation(new Vector3(
+                catLocation.x + Random.Range(-spawnPointRAndomDistance, spawnPointRAndomDistance), 
+                catLocation.y, 
+                catLocation.z + Random.Range(-1, 1)), 
+                Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
+        }
     }
 
     void resetScene()
@@ -129,6 +151,7 @@ public class GameManager : MonoBehaviour
             groupCat.RegisterAgent(cat.GetComponent<AgentCat>());
         }
         deadMice = 0;
+        deadCats = 0;
         playedTime = 0;
     }
 }

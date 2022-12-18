@@ -25,6 +25,10 @@ public class AgentMouse : Agent
     // Update is called once per frame
     void Update()
     {
+        if (gameObject.GetComponent<NewMovementGravity>().isDead)
+        {
+            hitDeathWall();
+        }
         AddReward(timeReward);
     }
 
@@ -51,6 +55,7 @@ public class AgentMouse : Agent
     {
         AddReward(mouseKilled);
         gameManager.deadMice++;
+        gameObject.GetComponent<NewMovementGravity>().isDead = false;
         gameObject.SetActive(false);
     }
 

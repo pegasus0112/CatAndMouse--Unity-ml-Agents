@@ -1,0 +1,123 @@
+{
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 7499996,
+                "file_path": "results\\gravity01\\Cat\\Cat-7499996.onnx",
+                "reward": -0.21857774998331125,
+                "creation_time": 1671430118.2225747,
+                "auxillary_file_paths": [
+                    "results\\gravity01\\Cat\\Cat-7499996.pt"
+                ]
+            },
+            {
+                "steps": 7999998,
+                "file_path": "results\\gravity01\\Cat\\Cat-7999998.onnx",
+                "reward": -0.21611718438680325,
+                "creation_time": 1671433732.212953,
+                "auxillary_file_paths": [
+                    "results\\gravity01\\Cat\\Cat-7999998.pt"
+                ]
+            },
+            {
+                "steps": 8499999,
+                "file_path": "results\\gravity01\\Cat\\Cat-8499999.onnx",
+                "reward": -0.2138793779993633,
+                "creation_time": 1671437424.5324771,
+                "auxillary_file_paths": [
+                    "results\\gravity01\\Cat\\Cat-8499999.pt"
+                ]
+            },
+            {
+                "steps": 8999996,
+                "file_path": "results\\gravity01\\Cat\\Cat-8999996.onnx",
+                "reward": -0.2121190071477272,
+                "creation_time": 1671441043.5503786,
+                "auxillary_file_paths": [
+                    "results\\gravity01\\Cat\\Cat-8999996.pt"
+                ]
+            },
+            {
+                "steps": 9358284,
+                "file_path": "results\\gravity01\\Cat\\Cat-9358284.onnx",
+                "reward": -0.21082842669694135,
+                "creation_time": 1671443680.5298738,
+                "auxillary_file_paths": [
+                    "results\\gravity01\\Cat\\Cat-9358284.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 9358284,
+            "file_path": "results\\gravity01\\Cat.onnx",
+            "reward": -0.21082842669694135,
+            "creation_time": 1671443680.5298738,
+            "auxillary_file_paths": [
+                "results\\gravity01\\Cat\\Cat-9358284.pt"
+            ]
+        }
+    },
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 7499996,
+                "file_path": "results\\gravity01\\Mouse\\Mouse-7499996.onnx",
+                "reward": -2.0011641303073806,
+                "creation_time": 1671430118.608128,
+                "auxillary_file_paths": [
+                    "results\\gravity01\\Mouse\\Mouse-7499996.pt"
+                ]
+            },
+            {
+                "steps": 7999998,
+                "file_path": "results\\gravity01\\Mouse\\Mouse-7999998.onnx",
+                "reward": -2.001118405183792,
+                "creation_time": 1671433732.607987,
+                "auxillary_file_paths": [
+                    "results\\gravity01\\Mouse\\Mouse-7999998.pt"
+                ]
+            },
+            {
+                "steps": 8499999,
+                "file_path": "results\\gravity01\\Mouse\\Mouse-8499999.onnx",
+                "reward": -2.0010594870367875,
+                "creation_time": 1671437424.9574935,
+                "auxillary_file_paths": [
+                    "results\\gravity01\\Mouse\\Mouse-8499999.pt"
+                ]
+            },
+            {
+                "steps": 8999996,
+                "file_path": "results\\gravity01\\Mouse\\Mouse-8999996.onnx",
+                "reward": -2.0010029553330604,
+                "creation_time": 1671441043.988579,
+                "auxillary_file_paths": [
+                    "results\\gravity01\\Mouse\\Mouse-8999996.pt"
+                ]
+            },
+            {
+                "steps": 9358272,
+                "file_path": "results\\gravity01\\Mouse\\Mouse-9358272.onnx",
+                "reward": -2.0009693785042093,
+                "creation_time": 1671443680.4797199,
+                "auxillary_file_paths": [
+                    "results\\gravity01\\Mouse\\Mouse-9358272.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 9358272,
+            "file_path": "results\\gravity01\\Mouse.onnx",
+            "reward": -2.0009693785042093,
+            "creation_time": 1671443680.4797199,
+            "auxillary_file_paths": [
+                "results\\gravity01\\Mouse\\Mouse-9358272.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -10,3 +10,5 @@ mlagents-learn Cat.yaml --run-id=schroedinger0
 mlagents-learn CatEpsHigher.yaml --run-id=higherRewardAndPenalties
 
 mlagents-learn Mouse.yaml --run-id=jerry4
+
+mlagents-learn Joined.yaml --run-id=gravity01

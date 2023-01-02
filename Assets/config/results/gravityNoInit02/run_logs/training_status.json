@@ -1,0 +1,51 @@
+{
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 51082,
+                "file_path": "results\\gravityNoInit02\\Mouse\\Mouse-51082.onnx",
+                "reward": -1.9751763197742418,
+                "creation_time": 1671450459.8330069,
+                "auxillary_file_paths": [
+                    "results\\gravityNoInit02\\Mouse\\Mouse-51082.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 51082,
+            "file_path": "results\\gravityNoInit02\\Mouse.onnx",
+            "reward": -1.9751763197742418,
+            "creation_time": 1671450459.8330069,
+            "auxillary_file_paths": [
+                "results\\gravityNoInit02\\Mouse\\Mouse-51082.pt"
+            ]
+        }
+    },
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 51084,
+                "file_path": "results\\gravityNoInit02\\Cat\\Cat-51084.onnx",
+                "reward": -0.40257579641373875,
+                "creation_time": 1671450459.8705196,
+                "auxillary_file_paths": [
+                    "results\\gravityNoInit02\\Cat\\Cat-51084.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 51084,
+            "file_path": "results\\gravityNoInit02\\Cat.onnx",
+            "reward": -0.40257579641373875,
+            "creation_time": 1671450459.8705196,
+            "auxillary_file_paths": [
+                "results\\gravityNoInit02\\Cat\\Cat-51084.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

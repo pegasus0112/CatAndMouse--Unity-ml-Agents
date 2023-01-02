@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1671450063",
+        "python_version": "3.9.9 (tags/v3.9.9:ccb0e6a, Nov 15 2021, 18:08:50) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Alex\\python-envs\\mlAgent-env\\Scripts\\mlagents-learn Joined.yaml --initialize-from=gravity01 --run-id=gravityNoInit",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1671450065"
+    },
+    "total": 2.2989333,
+    "count": 1,
+    "self": 0.013877700000000104,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08749529999999983,
+            "count": 1,
+            "self": 0.08749529999999983
+        },
+        "TrainerController.start_learning": {
+            "total": 2.1975603,
+            "count": 1,
+            "self": 0.000410400000000255,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 2.1971344999999998,
+                    "count": 1,
+                    "self": 2.1971344999999998
+                },
+                "trainer_threads": {
+                    "total": 8.000000000230045e-07,
+                    "count": 1,
+                    "self": 8.000000000230045e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 1.4600000000086766e-05,
+                    "count": 1,
+                    "self": 1.4600000000086766e-05
+                }
+            }
+        }
+    }
+}

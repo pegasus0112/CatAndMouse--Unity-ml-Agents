@@ -13,12 +13,24 @@ using System.ComponentModel;
 public class GameManager : MonoBehaviour
 {
     [Header("Setup")]
+    public bool enableTeamRewards = false;
     public List<GameObject> mice = new();
     public List<GameObject> cats = new();
     public Transform spawnPoints;
+    public float spawnDeviation = 0.25f;
     [Space(10)]
+
     [Header("Settings")]
-    [Range(60, 600)] public float gameTime = 90;
+    [Range(0.5f, 600)] public float gameTime = 90;
+    [Space(10)]
+
+    [Range(60, 600)] public float catTeamRewards = 2;
+    [Range(60, 600)] public float catTeamPenalty = -2;
+    [Space(10)]
+
+    [Range(60, 600)] public float mouseTeamRewards = 2;
+    [Range(60, 600)] public float mouseTeamPenalty = -2;
+    [Space(10)]
 
     float playedTime;
     float existingMice;
@@ -53,18 +65,22 @@ public class GameManager : MonoBehaviour
 
         if (playedTime > gameTime)
         {
-            groupMouse.AddGroupReward(2);
-            groupCat.AddGroupReward(-2);
-
+            if (enableTeamRewards)
+            {
+                groupMouse.AddGroupReward(mouseTeamRewards);
+                groupCat.AddGroupReward(catTeamPenalty);
+            }
             groupMouse.EndGroupEpisode();
             groupCat.EndGroupEpisode();
             resetScene();
         }
         if (existingMice <= deadMice)
         {
-            groupCat.AddGroupReward(2);
-            groupMouse.AddGroupReward(-2);
-
+            if (enableTeamRewards)
+            {
+                groupCat.AddGroupReward(catTeamPenalty);
+                groupMouse.AddGroupReward(mouseTeamPenalty);
+            }
             groupMouse.EndGroupEpisode();
             groupCat.EndGroupEpisode();
             resetScene();
@@ -85,21 +101,21 @@ public class GameManager : MonoBehaviour
 
     void placeMice(int miceSpawnNumber) {
         Vector3 miceLocation = new Vector3(spawnPoints.GetChild(miceSpawnNumber).transform.position.x, 0.25f, spawnPoints.GetChild(miceSpawnNumber).transform.position.z);
-        mice[0].transform.SetPositionAndRotation(miceLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
-        miceLocation.x += 1;
-        mice[1].transform.SetPositionAndRotation(miceLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
-        miceLocation.x -= 2;
-        mice[2].transform.SetPositionAndRotation(miceLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
+        foreach (GameObject mouse in mice)
+        {
+            Vector3 positionDeviation = new Vector3(miceLocation.x + Random.Range(-spawnDeviation, spawnDeviation), miceLocation.y, miceLocation.z + Random.Range(-spawnDeviation, spawnDeviation));
+            mouse.transform.SetPositionAndRotation(positionDeviation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
+        };
     }
 
     void placeCat(int catSpawnNumber)
     {
         Vector3 catLocation = new Vector3(spawnPoints.GetChild(catSpawnNumber).transform.position.x, 0.25f, spawnPoints.GetChild(catSpawnNumber).transform.position.z);
-        cats[0].transform.SetPositionAndRotation(catLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
-        catLocation.x += 1;
-        cats[1].transform.SetPositionAndRotation(catLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
-        catLocation.x -= 2;
-        cats[2].transform.SetPositionAndRotation(catLocation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
+        foreach (GameObject cat in cats)
+        {
+            Vector3 positionDeviation = new Vector3(catLocation.x + Random.Range(-spawnDeviation, spawnDeviation), catLocation.y, catLocation.z + Random.Range(-spawnDeviation, spawnDeviation));
+            cat.transform.SetPositionAndRotation(positionDeviation, Quaternion.AngleAxis(Random.Range(0, 360), Vector3.up));
+        };
     }
 
     void resetScene()
@@ -120,7 +136,6 @@ public class GameManager : MonoBehaviour
         {
             mouse.SetActive(true);
             groupMouse.RegisterAgent(mouse.GetComponent<AgentMouse>());
-            
         }
 
         foreach (var cat in cats)

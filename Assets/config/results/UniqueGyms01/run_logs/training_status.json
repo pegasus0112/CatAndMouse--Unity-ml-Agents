@@ -1,0 +1,141 @@
+{
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 999995,
+                "file_path": "results\\UniqueGyms01\\Cat\\Cat-999995.onnx",
+                "reward": -89.86674057259675,
+                "creation_time": 1671472250.2011142,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Cat\\Cat-999995.pt"
+                ]
+            },
+            {
+                "steps": 1499966,
+                "file_path": "results\\UniqueGyms01\\Cat\\Cat-1499966.onnx",
+                "reward": -79.3800621288327,
+                "creation_time": 1671473490.4043813,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Cat\\Cat-1499966.pt"
+                ]
+            },
+            {
+                "steps": 1999944,
+                "file_path": "results\\UniqueGyms01\\Cat\\Cat-1999944.onnx",
+                "reward": -67.40507067800785,
+                "creation_time": 1671474791.3802621,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Cat\\Cat-1999944.pt"
+                ]
+            },
+            {
+                "steps": 2499985,
+                "file_path": "results\\UniqueGyms01\\Cat\\Cat-2499985.onnx",
+                "reward": -60.19635169763191,
+                "creation_time": 1671475950.119945,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Cat\\Cat-2499985.pt"
+                ]
+            },
+            {
+                "steps": 2999957,
+                "file_path": "results\\UniqueGyms01\\Cat\\Cat-2999957.onnx",
+                "reward": -50.51127639361496,
+                "creation_time": 1671477024.1984768,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Cat\\Cat-2999957.pt"
+                ]
+            },
+            {
+                "steps": 3003011,
+                "file_path": "results\\UniqueGyms01\\Cat\\Cat-3003011.onnx",
+                "reward": -50.40292142872704,
+                "creation_time": 1671477028.8703835,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Cat\\Cat-3003011.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3003011,
+            "file_path": "results\\UniqueGyms01\\Cat.onnx",
+            "reward": -50.40292142872704,
+            "creation_time": 1671477028.8703835,
+            "auxillary_file_paths": [
+                "results\\UniqueGyms01\\Cat\\Cat-3003011.pt"
+            ]
+        }
+    },
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 999959,
+                "file_path": "results\\UniqueGyms01\\Mouse\\Mouse-999959.onnx",
+                "reward": 240.40492216137147,
+                "creation_time": 1671472250.8761663,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Mouse\\Mouse-999959.pt"
+                ]
+            },
+            {
+                "steps": 1499963,
+                "file_path": "results\\UniqueGyms01\\Mouse\\Mouse-1499963.onnx",
+                "reward": 225.4170984400041,
+                "creation_time": 1671473497.592261,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Mouse\\Mouse-1499963.pt"
+                ]
+            },
+            {
+                "steps": 1999998,
+                "file_path": "results\\UniqueGyms01\\Mouse\\Mouse-1999998.onnx",
+                "reward": 200.71741236324968,
+                "creation_time": 1671474798.8089457,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Mouse\\Mouse-1999998.pt"
+                ]
+            },
+            {
+                "steps": 2499990,
+                "file_path": "results\\UniqueGyms01\\Mouse\\Mouse-2499990.onnx",
+                "reward": 190.35205575219945,
+                "creation_time": 1671475958.3587537,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Mouse\\Mouse-2499990.pt"
+                ]
+            },
+            {
+                "steps": 2999950,
+                "file_path": "results\\UniqueGyms01\\Mouse\\Mouse-2999950.onnx",
+                "reward": 166.0613749112891,
+                "creation_time": 1671477028.7087812,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Mouse\\Mouse-2999950.pt"
+                ]
+            },
+            {
+                "steps": 3000014,
+                "file_path": "results\\UniqueGyms01\\Mouse\\Mouse-3000014.onnx",
+                "reward": 166.0613749112891,
+                "creation_time": 1671477028.7979803,
+                "auxillary_file_paths": [
+                    "results\\UniqueGyms01\\Mouse\\Mouse-3000014.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3000014,
+            "file_path": "results\\UniqueGyms01\\Mouse.onnx",
+            "reward": 166.0613749112891,
+            "creation_time": 1671477028.7979803,
+            "auxillary_file_paths": [
+                "results\\UniqueGyms01\\Mouse\\Mouse-3000014.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

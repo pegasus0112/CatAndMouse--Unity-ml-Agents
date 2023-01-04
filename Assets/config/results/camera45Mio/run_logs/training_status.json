@@ -1,0 +1,303 @@
+{
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 18749985,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-18749985.onnx",
+                "reward": -10.067640496920253,
+                "creation_time": 1672829166.2871115,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-18749985.pt"
+                ]
+            },
+            {
+                "steps": 18999956,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-18999956.onnx",
+                "reward": -9.01662546450702,
+                "creation_time": 1672830180.8954923,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-18999956.pt"
+                ]
+            },
+            {
+                "steps": 19249987,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-19249987.onnx",
+                "reward": -10.270038309218322,
+                "creation_time": 1672831191.3933127,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-19249987.pt"
+                ]
+            },
+            {
+                "steps": 19499970,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-19499970.onnx",
+                "reward": -10.36542238634579,
+                "creation_time": 1672832177.9340773,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-19499970.pt"
+                ]
+            },
+            {
+                "steps": 19749941,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-19749941.onnx",
+                "reward": -8.424244115236162,
+                "creation_time": 1672833235.469867,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-19749941.pt"
+                ]
+            },
+            {
+                "steps": 19999942,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-19999942.onnx",
+                "reward": -9.079698149717055,
+                "creation_time": 1672834211.057811,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-19999942.pt"
+                ]
+            },
+            {
+                "steps": 20249970,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-20249970.onnx",
+                "reward": -8.295342908946402,
+                "creation_time": 1672835256.0209818,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-20249970.pt"
+                ]
+            },
+            {
+                "steps": 20499942,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-20499942.onnx",
+                "reward": -9.53169982577948,
+                "creation_time": 1672836237.6877692,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-20499942.pt"
+                ]
+            },
+            {
+                "steps": 20749938,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-20749938.onnx",
+                "reward": -8.902405683256564,
+                "creation_time": 1672837295.3414435,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-20749938.pt"
+                ]
+            },
+            {
+                "steps": 20999983,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-20999983.onnx",
+                "reward": -9.426264623096003,
+                "creation_time": 1672838278.8924506,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-20999983.pt"
+                ]
+            },
+            {
+                "steps": 21249984,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-21249984.onnx",
+                "reward": -9.517091417502849,
+                "creation_time": 1672839334.2908149,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-21249984.pt"
+                ]
+            },
+            {
+                "steps": 21499951,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-21499951.onnx",
+                "reward": -10.235583836445585,
+                "creation_time": 1672840320.7230635,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-21499951.pt"
+                ]
+            },
+            {
+                "steps": 21749986,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-21749986.onnx",
+                "reward": -9.270596511948566,
+                "creation_time": 1672841368.1016908,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-21749986.pt"
+                ]
+            },
+            {
+                "steps": 21999964,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-21999964.onnx",
+                "reward": -9.320892916593687,
+                "creation_time": 1672842402.5664654,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-21999964.pt"
+                ]
+            },
+            {
+                "steps": 22039908,
+                "file_path": "results\\camera45Mio\\Cat\\Cat-22039908.onnx",
+                "reward": -10.275875402348381,
+                "creation_time": 1672842662.833729,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Cat\\Cat-22039908.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 22039908,
+            "file_path": "results\\camera45Mio\\Cat.onnx",
+            "reward": -10.275875402348381,
+            "creation_time": 1672842662.833729,
+            "auxillary_file_paths": [
+                "results\\camera45Mio\\Cat\\Cat-22039908.pt"
+            ]
+        }
+    },
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 18499982,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-18499982.onnx",
+                "reward": 53.20349066267129,
+                "creation_time": 1672828881.0667872,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-18499982.pt"
+                ]
+            },
+            {
+                "steps": 18749941,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-18749941.onnx",
+                "reward": 52.6964736249437,
+                "creation_time": 1672829938.2317307,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-18749941.pt"
+                ]
+            },
+            {
+                "steps": 18999994,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-18999994.onnx",
+                "reward": 51.09772146717136,
+                "creation_time": 1672830924.5120742,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-18999994.pt"
+                ]
+            },
+            {
+                "steps": 19249963,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-19249963.onnx",
+                "reward": 60.47285566034943,
+                "creation_time": 1672831989.2325704,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-19249963.pt"
+                ]
+            },
+            {
+                "steps": 19499977,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-19499977.onnx",
+                "reward": 50.4325234101776,
+                "creation_time": 1672832985.945803,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-19499977.pt"
+                ]
+            },
+            {
+                "steps": 19749985,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-19749985.onnx",
+                "reward": 47.53544321897868,
+                "creation_time": 1672834040.5480146,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-19749985.pt"
+                ]
+            },
+            {
+                "steps": 19999992,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-19999992.onnx",
+                "reward": 48.86617303741313,
+                "creation_time": 1672835024.7444115,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-19999992.pt"
+                ]
+            },
+            {
+                "steps": 20249967,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-20249967.onnx",
+                "reward": 50.57253471029458,
+                "creation_time": 1672836085.133898,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-20249967.pt"
+                ]
+            },
+            {
+                "steps": 20499997,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-20499997.onnx",
+                "reward": 50.67199386537302,
+                "creation_time": 1672837087.9750013,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-20499997.pt"
+                ]
+            },
+            {
+                "steps": 20749948,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-20749948.onnx",
+                "reward": 48.93585905267391,
+                "creation_time": 1672838144.5803783,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-20749948.pt"
+                ]
+            },
+            {
+                "steps": 20999987,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-20999987.onnx",
+                "reward": 49.23902933882143,
+                "creation_time": 1672839173.1336935,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-20999987.pt"
+                ]
+            },
+            {
+                "steps": 21249960,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-21249960.onnx",
+                "reward": 55.06858943249578,
+                "creation_time": 1672840205.5046353,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-21249960.pt"
+                ]
+            },
+            {
+                "steps": 21499966,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-21499966.onnx",
+                "reward": 56.75596909305101,
+                "creation_time": 1672841225.718366,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-21499966.pt"
+                ]
+            },
+            {
+                "steps": 21749951,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-21749951.onnx",
+                "reward": 48.3240064219995,
+                "creation_time": 1672842274.7778957,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-21749951.pt"
+                ]
+            },
+            {
+                "steps": 21818251,
+                "file_path": "results\\camera45Mio\\Mouse\\Mouse-21818251.onnx",
+                "reward": 54.681447511911394,
+                "creation_time": 1672842662.9388714,
+                "auxillary_file_paths": [
+                    "results\\camera45Mio\\Mouse\\Mouse-21818251.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 21818251,
+            "file_path": "results\\camera45Mio\\Mouse.onnx",
+            "reward": 54.681447511911394,
+            "creation_time": 1672842662.9388714,
+            "auxillary_file_paths": [
+                "results\\camera45Mio\\Mouse\\Mouse-21818251.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

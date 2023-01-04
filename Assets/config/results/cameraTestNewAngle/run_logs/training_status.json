@@ -1,0 +1,123 @@
+{
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 14249968,
+                "file_path": "results\\cameraTestNewAngle\\Cat\\Cat-14249968.onnx",
+                "reward": -12.36844770014286,
+                "creation_time": 1672730163.0129635,
+                "auxillary_file_paths": [
+                    "results\\cameraTestNewAngle\\Cat\\Cat-14249968.pt"
+                ]
+            },
+            {
+                "steps": 14499975,
+                "file_path": "results\\cameraTestNewAngle\\Cat\\Cat-14499975.onnx",
+                "reward": -13.076205885024379,
+                "creation_time": 1672731222.9150877,
+                "auxillary_file_paths": [
+                    "results\\cameraTestNewAngle\\Cat\\Cat-14499975.pt"
+                ]
+            },
+            {
+                "steps": 14749969,
+                "file_path": "results\\cameraTestNewAngle\\Cat\\Cat-14749969.onnx",
+                "reward": -12.986585135726878,
+                "creation_time": 1672732270.8204515,
+                "auxillary_file_paths": [
+                    "results\\cameraTestNewAngle\\Cat\\Cat-14749969.pt"
+                ]
+            },
+            {
+                "steps": 14999984,
+                "file_path": "results\\cameraTestNewAngle\\Cat\\Cat-14999984.onnx",
+                "reward": -12.27688814965742,
+                "creation_time": 1672733320.781307,
+                "auxillary_file_paths": [
+                    "results\\cameraTestNewAngle\\Cat\\Cat-14999984.pt"
+                ]
+            },
+            {
+                "steps": 15051562,
+                "file_path": "results\\cameraTestNewAngle\\Cat\\Cat-15051562.onnx",
+                "reward": -12.3733102579059,
+                "creation_time": 1672733507.454614,
+                "auxillary_file_paths": [
+                    "results\\cameraTestNewAngle\\Cat\\Cat-15051562.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15051562,
+            "file_path": "results\\cameraTestNewAngle\\Cat.onnx",
+            "reward": -12.3733102579059,
+            "creation_time": 1672733507.454614,
+            "auxillary_file_paths": [
+                "results\\cameraTestNewAngle\\Cat\\Cat-15051562.pt"
+            ]
+        }
+    },
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 14249999,
+                "file_path": "results\\cameraTestNewAngle\\Mouse\\Mouse-14249999.onnx",
+                "reward": 52.19822410865085,
+                "creation_time": 1672730366.6190875,
+                "auxillary_file_paths": [
+                    "results\\cameraTestNewAngle\\Mouse\\Mouse-14249999.pt"
+                ]
+            },
+            {
+                "steps": 14499977,
+                "file_path": "results\\cameraTestNewAngle\\Mouse\\Mouse-14499977.onnx",
+                "reward": 63.068202818376086,
+                "creation_time": 1672731420.7020173,
+                "auxillary_file_paths": [
+                    "results\\cameraTestNewAngle\\Mouse\\Mouse-14499977.pt"
+                ]
+            },
+            {
+                "steps": 14749987,
+                "file_path": "results\\cameraTestNewAngle\\Mouse\\Mouse-14749987.onnx",
+                "reward": 66.13462453186511,
+                "creation_time": 1672732479.4171643,
+                "auxillary_file_paths": [
+                    "results\\cameraTestNewAngle\\Mouse\\Mouse-14749987.pt"
+                ]
+            },
+            {
+                "steps": 14999993,
+                "file_path": "results\\cameraTestNewAngle\\Mouse\\Mouse-14999993.onnx",
+                "reward": 62.44441406950873,
+                "creation_time": 1672733507.2410169,
+                "auxillary_file_paths": [
+                    "results\\cameraTestNewAngle\\Mouse\\Mouse-14999993.pt"
+                ]
+            },
+            {
+                "steps": 15000169,
+                "file_path": "results\\cameraTestNewAngle\\Mouse\\Mouse-15000169.onnx",
+                "reward": 62.442526430924,
+                "creation_time": 1672733507.6000855,
+                "auxillary_file_paths": [
+                    "results\\cameraTestNewAngle\\Mouse\\Mouse-15000169.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15000169,
+            "file_path": "results\\cameraTestNewAngle\\Mouse.onnx",
+            "reward": 62.442526430924,
+            "creation_time": 1672733507.6000855,
+            "auxillary_file_paths": [
+                "results\\cameraTestNewAngle\\Mouse\\Mouse-15000169.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

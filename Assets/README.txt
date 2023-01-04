@@ -14,3 +14,8 @@ mlagents-learn Mouse.yaml --run-id=jerry4
 
 
 mlagents-learn Joined2P5Steps.yaml --run-id=UniqueGyms01
+
+
+Joined25MioSteps
+
+mlagents-learn Joined25MioSteps.yaml --run-id=cameraTest

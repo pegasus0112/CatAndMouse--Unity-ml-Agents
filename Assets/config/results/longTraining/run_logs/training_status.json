@@ -1,0 +1,159 @@
+{
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 499951,
+                "file_path": "results\\longTraining\\Cat\\Cat-499951.onnx",
+                "reward": -49.583034731073084,
+                "creation_time": 1672910366.369621,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Cat\\Cat-499951.pt"
+                ]
+            },
+            {
+                "steps": 999941,
+                "file_path": "results\\longTraining\\Cat\\Cat-999941.onnx",
+                "reward": -48.47156166036924,
+                "creation_time": 1672912930.0056436,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Cat\\Cat-999941.pt"
+                ]
+            },
+            {
+                "steps": 1499941,
+                "file_path": "results\\longTraining\\Cat\\Cat-1499941.onnx",
+                "reward": -43.14806412847548,
+                "creation_time": 1672915525.2393582,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Cat\\Cat-1499941.pt"
+                ]
+            },
+            {
+                "steps": 1999943,
+                "file_path": "results\\longTraining\\Cat\\Cat-1999943.onnx",
+                "reward": -40.27640335276798,
+                "creation_time": 1672918117.1737332,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Cat\\Cat-1999943.pt"
+                ]
+            },
+            {
+                "steps": 2499989,
+                "file_path": "results\\longTraining\\Cat\\Cat-2499989.onnx",
+                "reward": -37.18767365641319,
+                "creation_time": 1672920704.159189,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Cat\\Cat-2499989.pt"
+                ]
+            },
+            {
+                "steps": 2999991,
+                "file_path": "results\\longTraining\\Cat\\Cat-2999991.onnx",
+                "reward": -32.88554115664391,
+                "creation_time": 1672923345.160181,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Cat\\Cat-2999991.pt"
+                ]
+            },
+            {
+                "steps": 3007425,
+                "file_path": "results\\longTraining\\Cat\\Cat-3007425.onnx",
+                "reward": -33.27480450950987,
+                "creation_time": 1672923376.3192122,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Cat\\Cat-3007425.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3007425,
+            "file_path": "results\\longTraining\\Cat.onnx",
+            "reward": -33.27480450950987,
+            "creation_time": 1672923376.3192122,
+            "auxillary_file_paths": [
+                "results\\longTraining\\Cat\\Cat-3007425.pt"
+            ]
+        }
+    },
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 499951,
+                "file_path": "results\\longTraining\\Mouse\\Mouse-499951.onnx",
+                "reward": 165.132174325793,
+                "creation_time": 1672910375.774425,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Mouse\\Mouse-499951.pt"
+                ]
+            },
+            {
+                "steps": 999968,
+                "file_path": "results\\longTraining\\Mouse\\Mouse-999968.onnx",
+                "reward": 165.38853107757038,
+                "creation_time": 1672912987.2944062,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Mouse\\Mouse-999968.pt"
+                ]
+            },
+            {
+                "steps": 1499984,
+                "file_path": "results\\longTraining\\Mouse\\Mouse-1499984.onnx",
+                "reward": 153.34077487078807,
+                "creation_time": 1672915588.9576812,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Mouse\\Mouse-1499984.pt"
+                ]
+            },
+            {
+                "steps": 1999967,
+                "file_path": "results\\longTraining\\Mouse\\Mouse-1999967.onnx",
+                "reward": 149.41335539406327,
+                "creation_time": 1672918186.8042903,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Mouse\\Mouse-1999967.pt"
+                ]
+            },
+            {
+                "steps": 2499992,
+                "file_path": "results\\longTraining\\Mouse\\Mouse-2499992.onnx",
+                "reward": 140.96291937033337,
+                "creation_time": 1672920780.8018522,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Mouse\\Mouse-2499992.pt"
+                ]
+            },
+            {
+                "steps": 2999961,
+                "file_path": "results\\longTraining\\Mouse\\Mouse-2999961.onnx",
+                "reward": 129.2482766551631,
+                "creation_time": 1672923375.8419302,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Mouse\\Mouse-2999961.pt"
+                ]
+            },
+            {
+                "steps": 3000025,
+                "file_path": "results\\longTraining\\Mouse\\Mouse-3000025.onnx",
+                "reward": 129.2482766551631,
+                "creation_time": 1672923376.1129258,
+                "auxillary_file_paths": [
+                    "results\\longTraining\\Mouse\\Mouse-3000025.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3000025,
+            "file_path": "results\\longTraining\\Mouse.onnx",
+            "reward": 129.2482766551631,
+            "creation_time": 1672923376.1129258,
+            "auxillary_file_paths": [
+                "results\\longTraining\\Mouse\\Mouse-3000025.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

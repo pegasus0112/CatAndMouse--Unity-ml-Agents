@@ -1,0 +1,123 @@
+{
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 7499968,
+                "file_path": "results\\15Mio\\Cat\\Cat-7499968.onnx",
+                "reward": -13.89239592514611,
+                "creation_time": 1672868079.5774295,
+                "auxillary_file_paths": [
+                    "results\\15Mio\\Cat\\Cat-7499968.pt"
+                ]
+            },
+            {
+                "steps": 9999962,
+                "file_path": "results\\15Mio\\Cat\\Cat-9999962.onnx",
+                "reward": -10.11644794905856,
+                "creation_time": 1672874107.023435,
+                "auxillary_file_paths": [
+                    "results\\15Mio\\Cat\\Cat-9999962.pt"
+                ]
+            },
+            {
+                "steps": 12499992,
+                "file_path": "results\\15Mio\\Cat\\Cat-12499992.onnx",
+                "reward": -9.658430027925887,
+                "creation_time": 1672880115.4128017,
+                "auxillary_file_paths": [
+                    "results\\15Mio\\Cat\\Cat-12499992.pt"
+                ]
+            },
+            {
+                "steps": 14999995,
+                "file_path": "results\\15Mio\\Cat\\Cat-14999995.onnx",
+                "reward": -8.122885141913521,
+                "creation_time": 1672886098.7554839,
+                "auxillary_file_paths": [
+                    "results\\15Mio\\Cat\\Cat-14999995.pt"
+                ]
+            },
+            {
+                "steps": 15120017,
+                "file_path": "results\\15Mio\\Cat\\Cat-15120017.onnx",
+                "reward": -8.642136018342466,
+                "creation_time": 1672886343.960171,
+                "auxillary_file_paths": [
+                    "results\\15Mio\\Cat\\Cat-15120017.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15120017,
+            "file_path": "results\\15Mio\\Cat.onnx",
+            "reward": -8.642136018342466,
+            "creation_time": 1672886343.960171,
+            "auxillary_file_paths": [
+                "results\\15Mio\\Cat\\Cat-15120017.pt"
+            ]
+        }
+    },
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 7499967,
+                "file_path": "results\\15Mio\\Mouse\\Mouse-7499967.onnx",
+                "reward": 57.43839230245474,
+                "creation_time": 1672868158.8732412,
+                "auxillary_file_paths": [
+                    "results\\15Mio\\Mouse\\Mouse-7499967.pt"
+                ]
+            },
+            {
+                "steps": 9999957,
+                "file_path": "results\\15Mio\\Mouse\\Mouse-9999957.onnx",
+                "reward": 48.9073112065332,
+                "creation_time": 1672874232.254209,
+                "auxillary_file_paths": [
+                    "results\\15Mio\\Mouse\\Mouse-9999957.pt"
+                ]
+            },
+            {
+                "steps": 12499989,
+                "file_path": "results\\15Mio\\Mouse\\Mouse-12499989.onnx",
+                "reward": 43.88210506842982,
+                "creation_time": 1672880299.7516236,
+                "auxillary_file_paths": [
+                    "results\\15Mio\\Mouse\\Mouse-12499989.pt"
+                ]
+            },
+            {
+                "steps": 14999999,
+                "file_path": "results\\15Mio\\Mouse\\Mouse-14999999.onnx",
+                "reward": 44.14227133247983,
+                "creation_time": 1672886343.8720949,
+                "auxillary_file_paths": [
+                    "results\\15Mio\\Mouse\\Mouse-14999999.pt"
+                ]
+            },
+            {
+                "steps": 15000063,
+                "file_path": "results\\15Mio\\Mouse\\Mouse-15000063.onnx",
+                "reward": 44.14227133247983,
+                "creation_time": 1672886344.0053568,
+                "auxillary_file_paths": [
+                    "results\\15Mio\\Mouse\\Mouse-15000063.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15000063,
+            "file_path": "results\\15Mio\\Mouse.onnx",
+            "reward": 44.14227133247983,
+            "creation_time": 1672886344.0053568,
+            "auxillary_file_paths": [
+                "results\\15Mio\\Mouse\\Mouse-15000063.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

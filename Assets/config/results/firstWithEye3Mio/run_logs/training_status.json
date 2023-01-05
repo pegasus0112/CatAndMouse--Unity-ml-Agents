@@ -1,0 +1,51 @@
+{
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 12,
+                "file_path": "results\\firstWithEye3Mio\\Mouse\\Mouse-12.onnx",
+                "reward": -2.0002843340237937,
+                "creation_time": 1672849040.974517,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio\\Mouse\\Mouse-12.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 12,
+            "file_path": "results\\firstWithEye3Mio\\Mouse.onnx",
+            "reward": -2.0002843340237937,
+            "creation_time": 1672849040.974517,
+            "auxillary_file_paths": [
+                "results\\firstWithEye3Mio\\Mouse\\Mouse-12.pt"
+            ]
+        }
+    },
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 2304,
+                "file_path": "results\\firstWithEye3Mio\\Cat\\Cat-2304.onnx",
+                "reward": null,
+                "creation_time": 1672849041.0520217,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio\\Cat\\Cat-2304.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2304,
+            "file_path": "results\\firstWithEye3Mio\\Cat.onnx",
+            "reward": null,
+            "creation_time": 1672849041.0520217,
+            "auxillary_file_paths": [
+                "results\\firstWithEye3Mio\\Cat\\Cat-2304.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

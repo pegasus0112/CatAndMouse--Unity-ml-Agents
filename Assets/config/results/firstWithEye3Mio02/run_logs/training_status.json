@@ -1,0 +1,159 @@
+{
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 499946,
+                "file_path": "results\\firstWithEye3Mio02\\Mouse\\Mouse-499946.onnx",
+                "reward": 247.71027322908242,
+                "creation_time": 1672851821.8873434,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Mouse\\Mouse-499946.pt"
+                ]
+            },
+            {
+                "steps": 999991,
+                "file_path": "results\\firstWithEye3Mio02\\Mouse\\Mouse-999991.onnx",
+                "reward": 239.73692623226663,
+                "creation_time": 1672854416.689386,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Mouse\\Mouse-999991.pt"
+                ]
+            },
+            {
+                "steps": 1499995,
+                "file_path": "results\\firstWithEye3Mio02\\Mouse\\Mouse-1499995.onnx",
+                "reward": 238.4776022760641,
+                "creation_time": 1672857017.1613095,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Mouse\\Mouse-1499995.pt"
+                ]
+            },
+            {
+                "steps": 1999940,
+                "file_path": "results\\firstWithEye3Mio02\\Mouse\\Mouse-1999940.onnx",
+                "reward": 219.94792389163266,
+                "creation_time": 1672859619.7545457,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Mouse\\Mouse-1999940.pt"
+                ]
+            },
+            {
+                "steps": 2499979,
+                "file_path": "results\\firstWithEye3Mio02\\Mouse\\Mouse-2499979.onnx",
+                "reward": 209.35945376690398,
+                "creation_time": 1672862261.113385,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Mouse\\Mouse-2499979.pt"
+                ]
+            },
+            {
+                "steps": 2999990,
+                "file_path": "results\\firstWithEye3Mio02\\Mouse\\Mouse-2999990.onnx",
+                "reward": 195.70298029249219,
+                "creation_time": 1672865029.6871789,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Mouse\\Mouse-2999990.pt"
+                ]
+            },
+            {
+                "steps": 3000054,
+                "file_path": "results\\firstWithEye3Mio02\\Mouse\\Mouse-3000054.onnx",
+                "reward": 195.70298029249219,
+                "creation_time": 1672865030.4279342,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Mouse\\Mouse-3000054.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3000054,
+            "file_path": "results\\firstWithEye3Mio02\\Mouse.onnx",
+            "reward": 195.70298029249219,
+            "creation_time": 1672865030.4279342,
+            "auxillary_file_paths": [
+                "results\\firstWithEye3Mio02\\Mouse\\Mouse-3000054.pt"
+            ]
+        }
+    },
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 499968,
+                "file_path": "results\\firstWithEye3Mio02\\Cat\\Cat-499968.onnx",
+                "reward": -99.20931808054448,
+                "creation_time": 1672851821.9659753,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Cat\\Cat-499968.pt"
+                ]
+            },
+            {
+                "steps": 999977,
+                "file_path": "results\\firstWithEye3Mio02\\Cat\\Cat-999977.onnx",
+                "reward": -89.88126539734621,
+                "creation_time": 1672854410.286133,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Cat\\Cat-999977.pt"
+                ]
+            },
+            {
+                "steps": 1499978,
+                "file_path": "results\\firstWithEye3Mio02\\Cat\\Cat-1499978.onnx",
+                "reward": -84.75141909399203,
+                "creation_time": 1672857008.513543,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Cat\\Cat-1499978.pt"
+                ]
+            },
+            {
+                "steps": 1999939,
+                "file_path": "results\\firstWithEye3Mio02\\Cat\\Cat-1999939.onnx",
+                "reward": -74.81539036822853,
+                "creation_time": 1672859606.0882914,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Cat\\Cat-1999939.pt"
+                ]
+            },
+            {
+                "steps": 2499995,
+                "file_path": "results\\firstWithEye3Mio02\\Cat\\Cat-2499995.onnx",
+                "reward": -67.77525963470445,
+                "creation_time": 1672862244.023243,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Cat\\Cat-2499995.pt"
+                ]
+            },
+            {
+                "steps": 2999998,
+                "file_path": "results\\firstWithEye3Mio02\\Cat\\Cat-2999998.onnx",
+                "reward": -61.290331692111735,
+                "creation_time": 1672865018.4451463,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Cat\\Cat-2999998.pt"
+                ]
+            },
+            {
+                "steps": 3002529,
+                "file_path": "results\\firstWithEye3Mio02\\Cat\\Cat-3002529.onnx",
+                "reward": -61.41431887037802,
+                "creation_time": 1672865030.090432,
+                "auxillary_file_paths": [
+                    "results\\firstWithEye3Mio02\\Cat\\Cat-3002529.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3002529,
+            "file_path": "results\\firstWithEye3Mio02\\Cat.onnx",
+            "reward": -61.41431887037802,
+            "creation_time": 1672865030.090432,
+            "auxillary_file_paths": [
+                "results\\firstWithEye3Mio02\\Cat\\Cat-3002529.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

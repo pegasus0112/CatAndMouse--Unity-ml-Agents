@@ -593,7 +593,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1971957069}
   - component: {fileID: 1971957068}
-  - component: {fileID: 1971957067}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -601,14 +600,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1971957067
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971957066}
-  m_Enabled: 1
 --- !u!20 &1971957068
 Camera:
   m_ObjectHideFlags: 0
@@ -633,10 +624,10 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 50
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 24.488417
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -659,11 +650,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971957066}
-  m_LocalRotation: {x: -0.35563618, y: 0.6117223, z: -0.35684887, w: -0.60989976}
-  m_LocalPosition: {x: 7.701994, y: 37.196327, z: 12.212067}
+  m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: -13, y: 42.9, z: 22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}

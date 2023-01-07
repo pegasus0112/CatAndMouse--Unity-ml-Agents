@@ -1,0 +1,123 @@
+{
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 17499969,
+                "file_path": "results\\labyrinthPreTrainedFixedLayer\\Cat\\Cat-17499969.onnx",
+                "reward": -24.06731652364295,
+                "creation_time": 1673046222.1147351,
+                "auxillary_file_paths": [
+                    "results\\labyrinthPreTrainedFixedLayer\\Cat\\Cat-17499969.pt"
+                ]
+            },
+            {
+                "steps": 19999958,
+                "file_path": "results\\labyrinthPreTrainedFixedLayer\\Cat\\Cat-19999958.onnx",
+                "reward": -26.320481939264287,
+                "creation_time": 1673051536.479747,
+                "auxillary_file_paths": [
+                    "results\\labyrinthPreTrainedFixedLayer\\Cat\\Cat-19999958.pt"
+                ]
+            },
+            {
+                "steps": 22499994,
+                "file_path": "results\\labyrinthPreTrainedFixedLayer\\Cat\\Cat-22499994.onnx",
+                "reward": -22.402658936107297,
+                "creation_time": 1673056807.9828484,
+                "auxillary_file_paths": [
+                    "results\\labyrinthPreTrainedFixedLayer\\Cat\\Cat-22499994.pt"
+                ]
+            },
+            {
+                "steps": 24999960,
+                "file_path": "results\\labyrinthPreTrainedFixedLayer\\Cat\\Cat-24999960.onnx",
+                "reward": -27.178927683070594,
+                "creation_time": 1673062105.10696,
+                "auxillary_file_paths": [
+                    "results\\labyrinthPreTrainedFixedLayer\\Cat\\Cat-24999960.pt"
+                ]
+            },
+            {
+                "steps": 25070829,
+                "file_path": "results\\labyrinthPreTrainedFixedLayer\\Cat\\Cat-25070829.onnx",
+                "reward": -28.390122584170765,
+                "creation_time": 1673062282.7581255,
+                "auxillary_file_paths": [
+                    "results\\labyrinthPreTrainedFixedLayer\\Cat\\Cat-25070829.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 25070829,
+            "file_path": "results\\labyrinthPreTrainedFixedLayer\\Cat.onnx",
+            "reward": -28.390122584170765,
+            "creation_time": 1673062282.7581255,
+            "auxillary_file_paths": [
+                "results\\labyrinthPreTrainedFixedLayer\\Cat\\Cat-25070829.pt"
+            ]
+        }
+    },
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 14999949,
+                "file_path": "results\\labyrinthPreTrainedFixedLayer\\Mouse\\Mouse-14999949.onnx",
+                "reward": 93.11805605771495,
+                "creation_time": 1673043066.0025933,
+                "auxillary_file_paths": [
+                    "results\\labyrinthPreTrainedFixedLayer\\Mouse\\Mouse-14999949.pt"
+                ]
+            },
+            {
+                "steps": 17499966,
+                "file_path": "results\\labyrinthPreTrainedFixedLayer\\Mouse\\Mouse-17499966.onnx",
+                "reward": 74.95907813987216,
+                "creation_time": 1673048448.1390133,
+                "auxillary_file_paths": [
+                    "results\\labyrinthPreTrainedFixedLayer\\Mouse\\Mouse-17499966.pt"
+                ]
+            },
+            {
+                "steps": 19999974,
+                "file_path": "results\\labyrinthPreTrainedFixedLayer\\Mouse\\Mouse-19999974.onnx",
+                "reward": 73.31205467028278,
+                "creation_time": 1673053865.557563,
+                "auxillary_file_paths": [
+                    "results\\labyrinthPreTrainedFixedLayer\\Mouse\\Mouse-19999974.pt"
+                ]
+            },
+            {
+                "steps": 22499947,
+                "file_path": "results\\labyrinthPreTrainedFixedLayer\\Mouse\\Mouse-22499947.onnx",
+                "reward": 67.6784435391426,
+                "creation_time": 1673059252.5762699,
+                "auxillary_file_paths": [
+                    "results\\labyrinthPreTrainedFixedLayer\\Mouse\\Mouse-22499947.pt"
+                ]
+            },
+            {
+                "steps": 23896460,
+                "file_path": "results\\labyrinthPreTrainedFixedLayer\\Mouse\\Mouse-23896460.onnx",
+                "reward": 77.67524754206339,
+                "creation_time": 1673062282.8114362,
+                "auxillary_file_paths": [
+                    "results\\labyrinthPreTrainedFixedLayer\\Mouse\\Mouse-23896460.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 23896460,
+            "file_path": "results\\labyrinthPreTrainedFixedLayer\\Mouse.onnx",
+            "reward": 77.67524754206339,
+            "creation_time": 1673062282.8114362,
+            "auxillary_file_paths": [
+                "results\\labyrinthPreTrainedFixedLayer\\Mouse\\Mouse-23896460.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

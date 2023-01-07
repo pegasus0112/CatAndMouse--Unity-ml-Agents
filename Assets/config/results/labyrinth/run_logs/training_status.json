@@ -1,0 +1,123 @@
+{
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 7499953,
+                "file_path": "results\\labyrinth\\Cat\\Cat-7499953.onnx",
+                "reward": -58.58307666083177,
+                "creation_time": 1672947258.6015735,
+                "auxillary_file_paths": [
+                    "results\\labyrinth\\Cat\\Cat-7499953.pt"
+                ]
+            },
+            {
+                "steps": 9999945,
+                "file_path": "results\\labyrinth\\Cat\\Cat-9999945.onnx",
+                "reward": -57.089641068906836,
+                "creation_time": 1672952541.3274941,
+                "auxillary_file_paths": [
+                    "results\\labyrinth\\Cat\\Cat-9999945.pt"
+                ]
+            },
+            {
+                "steps": 12499942,
+                "file_path": "results\\labyrinth\\Cat\\Cat-12499942.onnx",
+                "reward": -59.29638444469578,
+                "creation_time": 1672957822.378007,
+                "auxillary_file_paths": [
+                    "results\\labyrinth\\Cat\\Cat-12499942.pt"
+                ]
+            },
+            {
+                "steps": 14999982,
+                "file_path": "results\\labyrinth\\Cat\\Cat-14999982.onnx",
+                "reward": -54.79255496446664,
+                "creation_time": 1672963079.3709137,
+                "auxillary_file_paths": [
+                    "results\\labyrinth\\Cat\\Cat-14999982.pt"
+                ]
+            },
+            {
+                "steps": 15254118,
+                "file_path": "results\\labyrinth\\Cat\\Cat-15254118.onnx",
+                "reward": -51.669379761752985,
+                "creation_time": 1672963508.1623766,
+                "auxillary_file_paths": [
+                    "results\\labyrinth\\Cat\\Cat-15254118.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15254118,
+            "file_path": "results\\labyrinth\\Cat.onnx",
+            "reward": -51.669379761752985,
+            "creation_time": 1672963508.1623766,
+            "auxillary_file_paths": [
+                "results\\labyrinth\\Cat\\Cat-15254118.pt"
+            ]
+        }
+    },
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 7499985,
+                "file_path": "results\\labyrinth\\Mouse\\Mouse-7499985.onnx",
+                "reward": 148.40817896525064,
+                "creation_time": 1672947551.0549724,
+                "auxillary_file_paths": [
+                    "results\\labyrinth\\Mouse\\Mouse-7499985.pt"
+                ]
+            },
+            {
+                "steps": 9999964,
+                "file_path": "results\\labyrinth\\Mouse\\Mouse-9999964.onnx",
+                "reward": 134.83770429123015,
+                "creation_time": 1672952905.192439,
+                "auxillary_file_paths": [
+                    "results\\labyrinth\\Mouse\\Mouse-9999964.pt"
+                ]
+            },
+            {
+                "steps": 12499963,
+                "file_path": "results\\labyrinth\\Mouse\\Mouse-12499963.onnx",
+                "reward": 128.20640821385587,
+                "creation_time": 1672958265.9820323,
+                "auxillary_file_paths": [
+                    "results\\labyrinth\\Mouse\\Mouse-12499963.pt"
+                ]
+            },
+            {
+                "steps": 14999978,
+                "file_path": "results\\labyrinth\\Mouse\\Mouse-14999978.onnx",
+                "reward": 111.71826572020849,
+                "creation_time": 1672963508.0362804,
+                "auxillary_file_paths": [
+                    "results\\labyrinth\\Mouse\\Mouse-14999978.pt"
+                ]
+            },
+            {
+                "steps": 15000042,
+                "file_path": "results\\labyrinth\\Mouse\\Mouse-15000042.onnx",
+                "reward": 111.71826572020849,
+                "creation_time": 1672963508.1154575,
+                "auxillary_file_paths": [
+                    "results\\labyrinth\\Mouse\\Mouse-15000042.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15000042,
+            "file_path": "results\\labyrinth\\Mouse.onnx",
+            "reward": 111.71826572020849,
+            "creation_time": 1672963508.1154575,
+            "auxillary_file_paths": [
+                "results\\labyrinth\\Mouse\\Mouse-15000042.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

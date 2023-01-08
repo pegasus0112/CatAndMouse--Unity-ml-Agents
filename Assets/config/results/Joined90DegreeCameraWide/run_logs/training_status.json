@@ -1,0 +1,123 @@
+{
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 13499987,
+                "file_path": "results\\Joined90DegreeCameraWide\\Mouse\\Mouse-13499987.onnx",
+                "reward": 76.85393238832701,
+                "creation_time": 1673148005.862362,
+                "auxillary_file_paths": [
+                    "results\\Joined90DegreeCameraWide\\Mouse\\Mouse-13499987.pt"
+                ]
+            },
+            {
+                "steps": 13999966,
+                "file_path": "results\\Joined90DegreeCameraWide\\Mouse\\Mouse-13999966.onnx",
+                "reward": 75.40558956515405,
+                "creation_time": 1673150064.9184165,
+                "auxillary_file_paths": [
+                    "results\\Joined90DegreeCameraWide\\Mouse\\Mouse-13999966.pt"
+                ]
+            },
+            {
+                "steps": 14499991,
+                "file_path": "results\\Joined90DegreeCameraWide\\Mouse\\Mouse-14499991.onnx",
+                "reward": 73.63439340552404,
+                "creation_time": 1673152132.5032127,
+                "auxillary_file_paths": [
+                    "results\\Joined90DegreeCameraWide\\Mouse\\Mouse-14499991.pt"
+                ]
+            },
+            {
+                "steps": 14999951,
+                "file_path": "results\\Joined90DegreeCameraWide\\Mouse\\Mouse-14999951.onnx",
+                "reward": 81.57290518785192,
+                "creation_time": 1673154170.473946,
+                "auxillary_file_paths": [
+                    "results\\Joined90DegreeCameraWide\\Mouse\\Mouse-14999951.pt"
+                ]
+            },
+            {
+                "steps": 15000015,
+                "file_path": "results\\Joined90DegreeCameraWide\\Mouse\\Mouse-15000015.onnx",
+                "reward": 81.57290518785192,
+                "creation_time": 1673154170.7294526,
+                "auxillary_file_paths": [
+                    "results\\Joined90DegreeCameraWide\\Mouse\\Mouse-15000015.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15000015,
+            "file_path": "results\\Joined90DegreeCameraWide\\Mouse.onnx",
+            "reward": 81.57290518785192,
+            "creation_time": 1673154170.7294526,
+            "auxillary_file_paths": [
+                "results\\Joined90DegreeCameraWide\\Mouse\\Mouse-15000015.pt"
+            ]
+        }
+    },
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 13499995,
+                "file_path": "results\\Joined90DegreeCameraWide\\Cat\\Cat-13499995.onnx",
+                "reward": -18.154801840281745,
+                "creation_time": 1673147803.0646727,
+                "auxillary_file_paths": [
+                    "results\\Joined90DegreeCameraWide\\Cat\\Cat-13499995.pt"
+                ]
+            },
+            {
+                "steps": 13999976,
+                "file_path": "results\\Joined90DegreeCameraWide\\Cat\\Cat-13999976.onnx",
+                "reward": -15.129799726700353,
+                "creation_time": 1673149850.0177062,
+                "auxillary_file_paths": [
+                    "results\\Joined90DegreeCameraWide\\Cat\\Cat-13999976.pt"
+                ]
+            },
+            {
+                "steps": 14499944,
+                "file_path": "results\\Joined90DegreeCameraWide\\Cat\\Cat-14499944.onnx",
+                "reward": -13.479652772754585,
+                "creation_time": 1673151904.7049017,
+                "auxillary_file_paths": [
+                    "results\\Joined90DegreeCameraWide\\Cat\\Cat-14499944.pt"
+                ]
+            },
+            {
+                "steps": 14999992,
+                "file_path": "results\\Joined90DegreeCameraWide\\Cat\\Cat-14999992.onnx",
+                "reward": -17.333791912679214,
+                "creation_time": 1673153961.6988761,
+                "auxillary_file_paths": [
+                    "results\\Joined90DegreeCameraWide\\Cat\\Cat-14999992.pt"
+                ]
+            },
+            {
+                "steps": 15061169,
+                "file_path": "results\\Joined90DegreeCameraWide\\Cat\\Cat-15061169.onnx",
+                "reward": -17.493192208940847,
+                "creation_time": 1673154170.6168914,
+                "auxillary_file_paths": [
+                    "results\\Joined90DegreeCameraWide\\Cat\\Cat-15061169.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15061169,
+            "file_path": "results\\Joined90DegreeCameraWide\\Cat.onnx",
+            "reward": -17.493192208940847,
+            "creation_time": 1673154170.6168914,
+            "auxillary_file_paths": [
+                "results\\Joined90DegreeCameraWide\\Cat\\Cat-15061169.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

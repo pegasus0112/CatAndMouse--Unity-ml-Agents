@@ -209,12 +209,12 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 3
-  m_Radius: 0.92
+  m_Radius: 0.6
   m_SlopeLimit: 0
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1.5, z: -0.08}
+  m_Center: {x: 0, y: 1.5, z: 0.3}
 --- !u!136 &1202489754066087331
 CapsuleCollider:
   m_ObjectHideFlags: 0

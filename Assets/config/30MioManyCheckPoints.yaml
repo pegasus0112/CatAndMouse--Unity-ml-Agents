@@ -2,7 +2,7 @@ behaviors:
   Mouse:
     trainer_type: poca
     hyperparameters:    
-      batch_size: 1240
+      batch_size: 2048
       buffer_size: 100000
       learning_rate: 0.0001
       beta: 0.005
@@ -28,7 +28,7 @@ behaviors:
   Cat:
     trainer_type: poca
     hyperparameters:    
-      batch_size: 1240
+      batch_size: 2048
       buffer_size: 100000
       learning_rate: 0.0001
       beta: 0.005

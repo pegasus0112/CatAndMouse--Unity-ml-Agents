@@ -1,0 +1,294 @@
+{
+    "Cat": {
+        "checkpoints": [
+            {
+                "steps": 249987,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-249987.onnx",
+                "reward": -36.82245801277058,
+                "creation_time": 1673166495.289088,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-249987.pt"
+                ]
+            },
+            {
+                "steps": 499938,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-499938.onnx",
+                "reward": -43.066830299794674,
+                "creation_time": 1673167973.8570466,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-499938.pt"
+                ]
+            },
+            {
+                "steps": 749937,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-749937.onnx",
+                "reward": -39.728355868849704,
+                "creation_time": 1673169634.1299624,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-749937.pt"
+                ]
+            },
+            {
+                "steps": 999943,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-999943.onnx",
+                "reward": -37.76211551716551,
+                "creation_time": 1673171057.2975855,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-999943.pt"
+                ]
+            },
+            {
+                "steps": 1061094,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-1061094.onnx",
+                "reward": -50.85138496619531,
+                "creation_time": 1673171534.8823903,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-1061094.pt"
+                ]
+            },
+            {
+                "steps": 2499990,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-2499990.onnx",
+                "reward": null,
+                "creation_time": 1673182287.039028,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-2499990.pt"
+                ]
+            },
+            {
+                "steps": 2743128,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-2743128.onnx",
+                "reward": -37.12768129736949,
+                "creation_time": 1673183728.8635566,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-2743128.pt"
+                ]
+            },
+            {
+                "steps": 2749987,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-2749987.onnx",
+                "reward": -5.09238338470459,
+                "creation_time": 1673183819.9804232,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-2749987.pt"
+                ]
+            },
+            {
+                "steps": 2999982,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-2999982.onnx",
+                "reward": -37.35678353570066,
+                "creation_time": 1673185259.4192054,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-2999982.pt"
+                ]
+            },
+            {
+                "steps": 3249995,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-3249995.onnx",
+                "reward": -40.130228404204054,
+                "creation_time": 1673186811.006715,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-3249995.pt"
+                ]
+            },
+            {
+                "steps": 3499993,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-3499993.onnx",
+                "reward": -32.46890168013127,
+                "creation_time": 1673188504.381451,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-3499993.pt"
+                ]
+            },
+            {
+                "steps": 3749974,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-3749974.onnx",
+                "reward": -64.90495199792915,
+                "creation_time": 1673190003.0178294,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-3749974.pt"
+                ]
+            },
+            {
+                "steps": 3999961,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-3999961.onnx",
+                "reward": -28.483730768359553,
+                "creation_time": 1673191508.9057877,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-3999961.pt"
+                ]
+            },
+            {
+                "steps": 4249943,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-4249943.onnx",
+                "reward": -35.96508382757505,
+                "creation_time": 1673193008.3333988,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-4249943.pt"
+                ]
+            },
+            {
+                "steps": 4282278,
+                "file_path": "results\\mazeWiderCamera\\Cat\\Cat-4282278.onnx",
+                "reward": -46.668016116072735,
+                "creation_time": 1673193214.8016722,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Cat\\Cat-4282278.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4282278,
+            "file_path": "results\\mazeWiderCamera\\Cat.onnx",
+            "reward": -46.668016116072735,
+            "creation_time": 1673193214.8016722,
+            "auxillary_file_paths": [
+                "results\\mazeWiderCamera\\Cat\\Cat-4282278.pt"
+            ]
+        }
+    },
+    "Mouse": {
+        "checkpoints": [
+            {
+                "steps": 249987,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-249987.onnx",
+                "reward": 150.01660717393344,
+                "creation_time": 1673166532.6747375,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-249987.pt"
+                ]
+            },
+            {
+                "steps": 499988,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-499988.onnx",
+                "reward": 159.91470621608116,
+                "creation_time": 1673168067.9437065,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-499988.pt"
+                ]
+            },
+            {
+                "steps": 749967,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-749967.onnx",
+                "reward": 164.52204081221768,
+                "creation_time": 1673169688.0957835,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-749967.pt"
+                ]
+            },
+            {
+                "steps": 999971,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-999971.onnx",
+                "reward": 161.54550583505892,
+                "creation_time": 1673171193.2590544,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-999971.pt"
+                ]
+            },
+            {
+                "steps": 1043304,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-1043304.onnx",
+                "reward": 231.31304979765858,
+                "creation_time": 1673171534.9873154,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-1043304.pt"
+                ]
+            },
+            {
+                "steps": 2249991,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-2249991.onnx",
+                "reward": null,
+                "creation_time": 1673182286.1524873,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-2249991.pt"
+                ]
+            },
+            {
+                "steps": 2484738,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-2484738.onnx",
+                "reward": 145.9951230008756,
+                "creation_time": 1673183728.6953773,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-2484738.pt"
+                ]
+            },
+            {
+                "steps": 2499952,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-2499952.onnx",
+                "reward": 102.81933020977746,
+                "creation_time": 1673183863.372,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-2499952.pt"
+                ]
+            },
+            {
+                "steps": 2749942,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-2749942.onnx",
+                "reward": 130.65757103012754,
+                "creation_time": 1673185324.0135696,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-2749942.pt"
+                ]
+            },
+            {
+                "steps": 2999948,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-2999948.onnx",
+                "reward": 117.21146221458912,
+                "creation_time": 1673186971.5011425,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-2999948.pt"
+                ]
+            },
+            {
+                "steps": 3249987,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-3249987.onnx",
+                "reward": 135.53907415564632,
+                "creation_time": 1673188616.3262546,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-3249987.pt"
+                ]
+            },
+            {
+                "steps": 3499952,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-3499952.onnx",
+                "reward": 130.6284820416878,
+                "creation_time": 1673190206.0445518,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-3499952.pt"
+                ]
+            },
+            {
+                "steps": 3749949,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-3749949.onnx",
+                "reward": 125.35904341248366,
+                "creation_time": 1673191671.1655917,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-3749949.pt"
+                ]
+            },
+            {
+                "steps": 3996133,
+                "file_path": "results\\mazeWiderCamera\\Mouse\\Mouse-3996133.onnx",
+                "reward": 177.5841181770615,
+                "creation_time": 1673193214.9090931,
+                "auxillary_file_paths": [
+                    "results\\mazeWiderCamera\\Mouse\\Mouse-3996133.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3996133,
+            "file_path": "results\\mazeWiderCamera\\Mouse.onnx",
+            "reward": 177.5841181770615,
+            "creation_time": 1673193214.9090931,
+            "auxillary_file_paths": [
+                "results\\mazeWiderCamera\\Mouse\\Mouse-3996133.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

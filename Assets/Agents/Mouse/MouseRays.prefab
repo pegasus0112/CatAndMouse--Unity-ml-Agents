@@ -532,7 +532,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 50000
+  MaxStep: 0
   timeReward: 1
   mouseKilled: -2
   walkingPenalty: -0.001

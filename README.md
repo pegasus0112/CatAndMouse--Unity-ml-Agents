@@ -6,6 +6,11 @@ Dabei gibt es zwei unterschiedliche Schwiergikeitsgrade in der Umgebung
 - eine einfache Umgebung mit unterschiedlich verteilten Wänden um Overfittung zu vermeiden
 - einfache Labyrinthe
 
+### Zu beachten
+Das Projekt basiert auf [CatAndMousePPO](https://github.com/pegasus0112/CatAndMousePPO). Das Projekt stieß an seine Grenzen, als Team-Play hinzugefügt wurde und der Code deswegen zu kompliziert wurde. Dieses Projekt nutzt statt dem PPO-Algorithmus den MA-POCA-Algorithmus der auf Teamverhalten ausgelegt ist. Die Mäuse zeigen jedoch im alten Projekt ein etwas besseres verhalten.
+
+Das Projekt enthält zudem extra Branche in denen Experimente durchgeführt wurden. Interessant dürfte der [camera-sensor-instead-of-rays-view](https://github.com/pegasus0112/CatAndMouse--Unity-ml-Agents/tree/camera-sensor-instead-of-rays-view)-Branch sein, da dieser etwas größer ist und ebenfalls interessante Demos enthält.
+
 ## Beispielvideo
 
 BITTE HIER EINFÜGEN

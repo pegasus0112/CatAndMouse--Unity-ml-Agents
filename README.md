@@ -13,7 +13,9 @@ Das Projekt enthält zudem extra Branche in denen Experimente durchgeführt wurd
 
 ## Beispielvideo
 
-BITTE HIER EINFÜGEN
+
+https://user-images.githubusercontent.com/33843960/212106507-0f29c068-bd64-4413-8b54-9f381dbd9c66.mp4
+
 
 ## Besonderheiten
 ### Neue NN trainieren

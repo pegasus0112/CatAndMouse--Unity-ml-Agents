@@ -6,6 +6,10 @@ Dabei gibt es zwei unterschiedliche Schwiergikeitsgrade in der Umgebung
 - eine einfache Umgebung mit unterschiedlich verteilten Wänden um Overfittung zu vermeiden
 - einfache Labyrinthe
 
+## Beispielvideo
+
+BITTE HIER EINFÜGEN
+
 ## Besonderheiten
 ### Neue NN trainieren
 Um das Projekt nutzen zu können, muss eine Python-Umgebung agelegt werden, welche sowohl pythroch, als auch die mlAgents enthält
@@ -61,3 +65,12 @@ Wichtig ist als, nicht nur die neue Umgebung, sondern auch, das die Angents zeit
 https://user-images.githubusercontent.com/33843960/212028749-1b1c2e3a-dbbb-431e-867d-cdf8698438de.mp4
 
 
+## Referenzen
+Die Grund Idee stammt von einem *Hide and Seek* Video von OpenAi:
+
+
+[![OpenAI Plays Hide & Seek](http://img.youtube.com/vi/Lu56xVlZ40M/0.jpg)](http://www.youtube.com/watch?v=Lu56xVlZ40M "OpenAI Plays Hide and Seek…and Breaks The Game! 🤖")
+
+Die Katzen und Mäuse (Model & Animation) stammen von der [Quirky Series - Animals Mega Pack Vol.1](https://assetstore.unity.com/packages/3d/characters/animals/quirky-series-animals-mega-pack-vol-1-137259)
+
+Alles andere (Code, Logik) basiert auf dem Wissen, welches ich aus der offiziellen [Dokumentation](https://github.com/Unity-Technologies/ml-agents/tree/main/docs) der ml-Agents habe. Also bis auf die Grund Idee ist alles selbst erarbeitet.

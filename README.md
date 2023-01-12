@@ -79,3 +79,10 @@ Die Grund Idee stammt von einem *Hide and Seek* Video von OpenAi:
 Die Katzen und Mäuse (Model & Animation) stammen von der [Quirky Series - Animals Mega Pack Vol.1](https://assetstore.unity.com/packages/3d/characters/animals/quirky-series-animals-mega-pack-vol-1-137259)
 
 Alles andere (Code, Logik) basiert auf dem Wissen, welches ich aus der offiziellen [Dokumentation](https://github.com/Unity-Technologies/ml-agents/tree/main/docs) der ml-Agents habe. Also bis auf die Grund Idee ist alles selbst erarbeitet.
+
+## 2 Minuten Video Training
+
+
+https://user-images.githubusercontent.com/33843960/212070218-b6033593-3fec-4a42-be73-fb64d3f05f2d.mp4
+
+

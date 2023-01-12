@@ -14,7 +14,7 @@ Das Projekt enthält zudem extra Branche in denen Experimente durchgeführt wurd
 ## Beispielvideo
 
 
-https://user-images.githubusercontent.com/33843960/212119494-a0b9a228-7207-4f56-bcde-a3698828f7a2.mp4
+https://user-images.githubusercontent.com/33843960/212124420-4919cd66-57c3-4bd9-89f2-7b2d1db3bd69.mp4
 
 
 ## Besonderheiten

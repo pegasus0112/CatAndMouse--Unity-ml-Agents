@@ -49,8 +49,7 @@ Das obere Video zeigt den Begin des Trainings. Das Problem bei dieser Umgebung i
 Auf diesem Prinzip hat da auch die Maus, mit einem fertig traninierten Katen-Agent trainiert. Dadurch wurde das Overfitting noch schlimmer:
 
 
-
-https://user-images.githubusercontent.com/33843960/212026802-18283d05-cbac-42b7-901e-d0051237d70b.mp4
+https://user-images.githubusercontent.com/33843960/212104754-05f6479c-d924-459f-8b8c-d736733f879b.mp4
 
 
 Die Maus hat gelernt, dass sie lediglich im Kreis rennen muss, um der ktze zu entkommen. Die Katze hingegen versteht nicht, das sie ihr verhalten ändern muss, um die Katze zu fangen.
